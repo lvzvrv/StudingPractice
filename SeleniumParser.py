@@ -43,4 +43,3 @@ for j, i in zip(range(100), range(0, len(no_format_result_list), 5)):
 
 with open(".\ParseResult.json", "w", encoding="utf-8") as file:
     json.dump(result_dict, file, indent=4, ensure_ascii=False)
-    print()
